@@ -38,14 +38,6 @@ source venv/bin/activate
 pip install sh
 ```
 
-### 6. Export AWS Credentials
-
-```bash
-export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY
-export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_KEY
-export AWS_DEFAULT_REGION=ap-south-1
-```
-
 ## 🪟 Windows (PowerShell) Commands
 
 ### 1. Install Python & AWS CLI
@@ -86,14 +78,6 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 ```powershell
 pip install sh
-```
-
-### 6. Set AWS Credentials (Environment Variables)
-
-```powershell
-$env:AWS_ACCESS_KEY_ID="YOUR_ACCESS_KEY"
-$env:AWS_SECRET_ACCESS_KEY="YOUR_SECRET_KEY"
-$env:AWS_DEFAULT_REGION="ap-south-1"
 ```
 
 ---
